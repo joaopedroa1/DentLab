@@ -1,0 +1,38 @@
+.vantagens{
+    display: flex;
+    justify-content:space-around;
+    margin-top: -80px;
+}
+
+.vantagens__img{
+    width: 92px;
+    height: auto;
+}
+
+.laranja{
+    background-color: var(--cor_laranja);
+    border-radius: 16px;
+}
+
+.roxo{
+    background-color: var(--cor_roxa);
+    border-radius: 16px;
+}
+
+.amarelo{
+    background-color: var(--cor_amarelo);
+    border-radius: 16px;
+}
+
+.margem{
+    margin-top: 8px;
+}
+
+@media (max-width: 900px){
+    .vantagens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+}

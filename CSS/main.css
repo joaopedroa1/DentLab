@@ -1,0 +1,14 @@
+.img__card{
+    width: 72px;
+    height: 72px;
+}
+.div_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+main{
+    margin-top: 64px;
+}

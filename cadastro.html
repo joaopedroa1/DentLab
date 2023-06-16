@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>DentLab-Cadastro</title>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="./JS/firebase-config.js" defer></script> <!--defer faz com que o arquivo JS seja o último a ser lido, o html é lido primeiro-->
+    <script src="./JS/register.js" defer></script>
+</head>
+<body>
+    <nav>
+           <a href="index.html">
+            <ul class="logo">
+                <li><img class="logo__image" src="./Imagens/logo.svg" alt="logo"></li>
+                <li>
+                    <h1 class="titulo__logo">Dent<span>Lab</span>
+                </li>
+                </h1>
+                </li>
+            </ul>
+           </a>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="login" href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    <section class = "are_formulario">
+            <img src="./Imagens/dentist-clinic.svg" alt="Clínica dentista" class="imagem_login">
+                <form action=""> <!--Essa action seria pra um arquivo, mas nesse caso, será utilizado o firebase-->
+                <h2 class = "titulo_form">Olá &#128075;, tudo bem?</h2>
+                <label for="email">E-mail: </label> 
+                <input id="email" type="email" placeholder="E-mail" required> <!--Obrigatório de se preencher, por conta do required-->
+                <label for="password">Senha: </label>
+                <input id = "password" type="password" placeholder="Senha" required>
+                <label for="password">Repetir senha: </label>
+                <input id = "confirmPassword" type="password" placeholder="Senha" required>
+                <a href="" class = "esqueceu_senha">Esqueceu sua senha?</a>
+                <button id = "registerButton">CADASTRAR-SE</button>
+            </form>
+    </section>
+   
+</body>
+</html>

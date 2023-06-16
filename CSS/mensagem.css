@@ -1,0 +1,41 @@
+.img__msg{
+    width: 500px;
+    height: auto;
+}
+.mensagem{
+    margin-top:150px;
+    display: flex;
+    justify-content: space-around;
+}
+.velocidade{
+    color: var(--cor_velocidade);
+    font-weight: bold;
+}
+
+.simplicidade{
+    color: var(--cor_simplicidade);
+    font-weight: bold;
+}
+
+.qualidade{
+    color: var(--cor_qualidade);
+    font-weight: bold;
+}
+
+h6{
+    margin-top: 24px;
+    text-align: justify;
+}
+.hgroup__mensagem{
+    width: 500px;
+}
+
+@media (max-width:900px){
+    .mensagem{
+        flex-direction: column;
+    }
+    .hgroup__mensagem{
+        width: auto;
+        padding: 24px;
+    }
+}

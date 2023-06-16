@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&family=Bebas+Neue&display=swap');
+:root {
+    --texto-logo: blue; 
+    --fonte-logo: "Bebas Neue";
+    --texto: "Barlow Condensed";
+    --cor_botao: #3498DB;
+    --cor_branco: white;
+    --cor_laranja: #ff9021;
+    --cor_roxa: #9156e7;
+    --cor_amarelo: #E8AF35;
+    --cor_velocidade: rgb(65,212,201);
+    --cor_simplicidade: #325b9c;
+    --cor_qualidade: #0093fd;
+    --cor_fundo_profissional: rgba(239, 248,254, 1);
+    --cor_fundo_footer: rgba(9,29,64,1);
+}
